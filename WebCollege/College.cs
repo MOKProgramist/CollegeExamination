@@ -7,6 +7,7 @@ using WebCollege.Interface;
 
 namespace WebCollege
 {
+    // Романов Андрей Романович
     public class College: ICollege
     {
         public string Name { get; set; }
