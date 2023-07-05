@@ -11,8 +11,6 @@ namespace WebCollege
     {
         public string Name { get; set; }
         public string Address { get; set; }
-        // List<ITeatcher> ICollege.Teatchers { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
         public List<ITeatcher> Teatchers { get; set; } = new List<ITeatcher>();
 
         public College(string name, string address) 
